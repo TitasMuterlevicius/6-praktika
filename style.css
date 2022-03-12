@@ -1,0 +1,208 @@
+body {
+    margin: 0;
+    padding: 0;
+}
+
+.container {
+
+    display: grid;
+    grid-template-rows: 2;
+    height: 100vh;
+
+}
+
+header {
+    height: 63vh;
+    background-image: url(./starry-night-sky-213217.jpg);
+    background-position: center;
+    background-repeat: no-repeat;
+    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    text-align: center;
+    position: relative;
+
+}
+
+.fa-solid fa-bars {
+    display: none;
+}
+
+section {
+    display: absolute;
+    margin-top:100px;
+    
+
+}
+
+ul {
+    list-style: none;
+    color:#b5b1b2;
+    text-transform: uppercase;
+    font-weight: 100;
+    display: grid;
+    grid-template-columns: repeat(11, 1fr);
+    justify-content: space-evenly;
+    justify-items: center;
+    align-content: space-evenly;
+    align-items: center;
+}
+
+li{
+    font-weight: 100;
+    font-family:'Arial Narrow', Arial, sans-serif;
+}
+
+ul li{
+     display: inline;
+}
+
+.fame{
+    color: #55a02c;
+    font-family: 'Dancing Script', cursive;
+    font-size: 30px;
+    float: left;
+    margin-top: 20px;
+    margin-left: 20px;
+    
+}
+
+.white {
+    color: white;
+    text-transform: uppercase;
+    font-size: 70px;
+}
+
+.green {
+    color: #55a02c;
+    text-transform: uppercase;
+    font-size: 70px;
+    
+}
+
+.hero-text {
+    color: #b5b1b2;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 20px;
+    margin: 5px;
+}
+
+.hero-buttons {
+    margin-top: 50px;
+}
+
+.get-now {
+    background-color: #55a02c ;
+    color:#b5b1b2 ;
+    width: 120px;
+    height: 6vh;
+    border: none;
+    margin-right: 5px;
+    border-radius: 3px;
+
+}
+
+.live-demo {
+    color:#b5b1b2 ;
+    width: 120px;
+    height: 6vh;
+    border: none;
+    border-radius: 3px;
+}
+
+main {
+    bottom: 0;
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    justify-content: center;
+    color: #a2a2a2;
+    margin: 25px;
+    
+}
+
+.web-design, .graphics-design, .wordpress-theme, .wordpress-plugin {
+   display: grid;
+   grid-template-rows: 3;
+   font-family:'Arial Narrow', Arial, sans-serif;
+   font-weight: 100;
+    justify-items: center;
+    align-items: center;
+    padding: 10px;
+   
+}
+
+h5 {
+    text-transform: uppercase;
+    font-weight: 100;
+}
+
+ion-icon {
+    font-size: 35px;
+    fill:white;
+    position: relative;
+    margin: 12px;
+}
+
+.box-around {
+    background-color:#55a02c;
+    height: 60px;
+    width:60px;
+}
+
+.end {
+    text-align: center;
+    font-size: 14px;
+}
+
+@media (max-width:1300px) {
+    ul li {
+        font-size: 14px;
+    }
+}
+
+
+
+@media (max-width:992px) {
+    .checkbtn {
+        font-size: 30px;
+        color: white;
+        float: right;
+        margin-right: 40px;
+        cursor: pointer;
+        display: block;
+        margin-top: 20px;
+    }
+
+    ul {
+        display: none;
+    }}
+@media (max-width:768px) {
+    main {
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        grid-template-rows: 1fr 1fr;
+    }
+}
+
+@media (max-width:480px) {
+    .white, .green {
+        font-size: 50px;
+    }
+    .hero-text {
+        font-size:14px;
+    }
+
+    .get-now, .live-demo {
+        width: 100px;
+        height: 5vh;
+    }
+
+    main {
+        display: grid;
+        grid-template-columns: 1fr;
+        grid-template-rows: 1fr;
+    }
+}
+
+.web-design, .graphics-design, .wordpress-theme, .wordpress-plugin {
+    margin-bottom: 35px;
+}
+    
